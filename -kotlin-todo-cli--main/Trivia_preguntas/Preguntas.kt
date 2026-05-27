@@ -4,5 +4,6 @@ data class Pregunta(
     val id: Int,
     val enunciado: String,
     val opciones: List<String>,
-    val respuestaCorrecta: Int
+    val respuestaCorrecta: Int,
+    val categoria: String
 )

@@ -10,37 +10,30 @@ class BancoPreguntas {
         listaPreguntas.add(
             Pregunta(
                 1,
-                "¿Qué palabra clave define una constante en Kotlin?",
-                listOf("var", "const val", "val", "let"),
-                3
+                "¿Qué palabra clave se usa para declarar una variable que no cambia en Kotlin?",
+                listOf("var", "val", "fun", "class"),
+                2,
+                "Variables"
             )
         )
 
         listaPreguntas.add(
             Pregunta(
                 2,
-                "¿Cómo maneja Kotlin la seguridad contra nulos por defecto?",
-                listOf(
-                    "Permite nulos siempre",
-                    "Los tipos no son anulables por defecto",
-                    "Usa punteros",
-                    "Lanza NullPointerException automáticamente"
-                ),
-                2
+                "¿Qué palabra clave se usa para declarar una variable que sí puede cambiar?",
+                listOf("var", "val", "const", "data"),
+                1,
+                "Variables"
             )
         )
 
         listaPreguntas.add(
             Pregunta(
                 3,
-                "¿Cuál es una ventaja de una Data Class?",
-                listOf(
-                    "Hereda de múltiples clases",
-                    "Genera automáticamente toString(), equals() y hashCode()",
-                    "Hace el código más rápido siempre",
-                    "No permite funciones"
-                ),
-                2
+                "¿Qué función se usa para imprimir texto en consola?",
+                listOf("show()", "console()", "println()", "write()"),
+                3,
+                "Consola"
             )
         )
 
@@ -48,8 +41,9 @@ class BancoPreguntas {
             Pregunta(
                 4,
                 "¿Qué palabra clave se usa para crear una función en Kotlin?",
-                listOf("function", "def", "fun", "method"),
-                3
+                listOf("function", "fun", "def", "method"),
+                2,
+                "Funciones"
             )
         )
 
@@ -57,35 +51,79 @@ class BancoPreguntas {
             Pregunta(
                 5,
                 "¿Qué estructura se usa para tomar decisiones en Kotlin?",
-                listOf("if", "println", "readLine", "listOf"),
-                1
+                listOf("if", "print", "readLine", "listOf"),
+                1,
+                "Condicionales"
             )
         )
 
         listaPreguntas.add(
             Pregunta(
                 6,
-                "¿Qué función sirve para crear una lista inmutable en Kotlin?",
-                listOf("array()", "mutableListOf()", "listOf()", "setOf()"),
-                3
+                "¿Qué estructura permite evaluar varias opciones de forma ordenada?",
+                listOf("while", "when", "forEach", "val"),
+                2,
+                "Condicionales"
             )
         )
 
         listaPreguntas.add(
             Pregunta(
                 7,
-                "¿Qué operador se conoce como Elvis operator en Kotlin?",
-                listOf("?.", "?:", "!!", "::"),
-                2
+                "¿Qué operador ayuda a evitar errores cuando un valor puede ser nulo?",
+                listOf("?.", "++", "--", "=="),
+                1,
+                "Null Safety"
             )
         )
 
         listaPreguntas.add(
             Pregunta(
                 8,
-                "¿Qué función permite imprimir texto en consola?",
-                listOf("show()", "printText()", "println()", "console()"),
-                3
+                "¿Qué operador se conoce como operador Elvis en Kotlin?",
+                listOf("?.", "?:", "!!", "::"),
+                2,
+                "Null Safety"
+            )
+        )
+
+        listaPreguntas.add(
+            Pregunta(
+                9,
+                "¿Qué función convierte un texto a número entero de forma segura?",
+                listOf("toInt()", "parseInt()", "toIntOrNull()", "readInt()"),
+                3,
+                "Null Safety"
+            )
+        )
+
+        listaPreguntas.add(
+            Pregunta(
+                10,
+                "¿Qué tipo de clase se usa principalmente para almacenar datos?",
+                listOf("data class", "open class", "sealed class", "abstract class"),
+                1,
+                "Data Class"
+            )
+        )
+
+        listaPreguntas.add(
+            Pregunta(
+                11,
+                "¿Qué función crea una lista inmutable en Kotlin?",
+                listOf("mutableListOf()", "listOf()", "arrayListOf()", "mapOf()"),
+                2,
+                "Colecciones"
+            )
+        )
+
+        listaPreguntas.add(
+            Pregunta(
+                12,
+                "¿Qué función permite recorrer una lista aplicando una acción a cada elemento?",
+                listOf("forEach", "find", "filter", "count"),
+                1,
+                "Colecciones"
             )
         )
     }
