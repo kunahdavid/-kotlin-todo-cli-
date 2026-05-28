@@ -17,6 +17,7 @@ class Trivia {
         println()
 
         preguntas.forEach { pregunta ->
+            println("-----------------------------------")
             mostrarPregunta(pregunta)
 
             print("Tu respuesta: ")
