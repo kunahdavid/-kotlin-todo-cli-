@@ -26,7 +26,7 @@ class Trivia {
             val respuestaUsuario = entrada.toIntOrNull()
 
             if (respuestaUsuario == pregunta.respuestaCorrecta) {
-                println("Correcto")
+                println("Correcto!! Buena respuesta")
                 puntaje++
             } else {
                 println("Incorrecto. La respuesta correcta era: ${pregunta.respuestaCorrecta}")
