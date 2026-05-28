@@ -6,7 +6,7 @@ class Trivia {
 
     fun iniciar() {
         banco.inicializarTrivia()
-        val preguntas = banco.obtenerPreguntasDelJuego()
+        val preguntas = banco.obtenerPreguntasDelJuego().take(2)
         var puntaje = 0
 
         println("===================================")
