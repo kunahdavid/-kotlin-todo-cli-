@@ -27,7 +27,7 @@ cd kotlin-todo-cli
 
 ---
 
-### ▶ Ejecutar Gestor de Tareas
+### Ejecutar Gestor de Tareas
 
 Compilar:
 kotlinc Main.kt Tarea.kt GestorTareas.kt -include-runtime -d GestorTareas.jar
@@ -37,7 +37,7 @@ java -jar GestorTareas.jar
 
 ---
 
-### ▶ Ejecutar Trivia de Kotlin
+### Ejecutar Trivia de Kotlin
 
 Compilar:
 kotlinc Trivia.kt BancoPreguntas.kt Pregunta.kt -include-runtime -d Trivia.jar
@@ -49,7 +49,7 @@ java -jar Trivia.jar
 
 ## 4. Funcionalidades Principales
 
-### 📝 Gestor de Tareas
+### Gestor de Tareas
 
 * Agregar tareas
 * Listar tareas
@@ -57,7 +57,7 @@ java -jar Trivia.jar
 * Eliminar tareas
 * Estadísticas de uso
 
-### 🧩 Trivia de Kotlin
+### Trivia de Kotlin
 
 * Preguntas aleatorias usando `.shuffled()`
 * Validación de respuestas del usuario
@@ -150,3 +150,12 @@ Aprendí que desarrollar directamente en consola presenta errores reales que no 
 ## 10. Autor
 
 Desarrollado como proyecto académico en el Instituto Tecnológico de Cancún.
+Integrantes:
+Alvarado Morales Luis Brayan
+Alejos Duran Marco Antonio
+Canul de la Cruz Elias David
+Hernandez Suarez Gabriela Daniela
+Ku Nah David Gamaliel
+Minguez Magallón Esban Antonio
+
+
